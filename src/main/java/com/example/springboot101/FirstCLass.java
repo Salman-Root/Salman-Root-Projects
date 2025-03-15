@@ -13,5 +13,9 @@ public class FirstCLass {
         return "Hello World";
      }
 
+    @RequestMapping("/hello/salman")
+    public String helloSlaman(){
+        return "Hello World";
+    }
 
 }
