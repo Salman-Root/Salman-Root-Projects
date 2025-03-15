@@ -13,8 +13,5 @@ public class FirstCLass {
         return "Hello World";
      }
 
-    @RequestMapping("/hello/{name}")
-    public String hello1(@PathVariable   String name){
-        return "Hello World"+name;
-    }
+
 }
